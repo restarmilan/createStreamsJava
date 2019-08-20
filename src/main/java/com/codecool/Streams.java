@@ -85,7 +85,9 @@ public class Streams {
          */
 
         Supplier<Integer> fibSupp = new Fibonacci();
-        Stream<Integer> s6;
+        Fibonacci fibo = new Fibonacci();
+        Stream<Integer> s6 = fibo.generate(15);
+        s6.forEach(System.out::println);
 
     }
 }
