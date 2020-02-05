@@ -8,3 +8,5 @@ Open the file [Streams.java](./src/main/java/com/codecool/Streams.java)
 and follow the instructions in the comments.
 
 It was a simple school homework assignment.
+
+This project was a perfect suspect for a quick TeamCity CI integration experiment.
