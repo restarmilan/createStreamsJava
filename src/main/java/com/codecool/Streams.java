@@ -88,6 +88,6 @@ public class Streams {
         Fibonacci fibo = new Fibonacci();
         Stream<Integer> s6 = fibo.generate(15);
         s6.forEach(System.out::println);
-        // not exactly the suggested solution but it works
+        // not exactly the suggested solution but it works.
     }
 }
