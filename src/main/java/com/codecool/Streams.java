@@ -89,5 +89,6 @@ public class Streams {
         Stream<Integer> s6 = fibo.generate(15);
         s6.forEach(System.out::println);
         // not exactly the suggested solution but it works.
+        //...
     }
 }
